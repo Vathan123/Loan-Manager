@@ -1,0 +1,217 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+     max-width: 900px;
+
+  }
+  
+  /* .dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  } */
+  
+  /* .dashboard p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .btn{
+    width: 150px;
+    height: 45px;
+    top: 200px;
+    left: 950px;
+    border-radius: 7px;
+  } */
+  .user-iamge{
+    background-color: #6B9908;
+    width:80px;
+    height:69px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .user-det{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 420px;
+  }
+  .def{
+    /* DEFICIT */
+
+/* position: absolute;
+width: 44px;
+height: 14px;
+left: 435px;
+top: 188px; */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+margin:0px;
+
+color: #6B9908;
+
+
+  }
+  .p{
+    /* tabler:currency-naira */
+
+width: 20px;
+height: 27px;
+
+
+filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.4));
+
+  }
+
+  .amount{
+    /* 0.0 */
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+margin-top: 0px;
+margin-left: 20px;
+
+color: #6B9908;
+
+
+  }
+.user-four{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-diff{
+  margin-top:20px;
+}
+.cols{
+  /* table_top */
+
+
+height: 30px;
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+.loanofficer{
+
+
+height: 18px;
+
+
+/* Bold 14 (0.2 px) */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.2px;
+
+/* grayscale / gray */
+color: #9FA2B4;
+margin-right:20px;
+
+}
+
+.ammount2{
+
+
+/* width: 208px;
+height: 18px; */
+
+/* Bold 14 (0.2 px) */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.2px;
+
+/* grayscale / gray */
+color: #9FA2B4;
+margin-right:20px;
+
+}
+.status{
+
+
+/* width: 104px;
+height: 18px; */
+
+
+/* Bold 14 (0.2 px) */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.2px;
+
+/* grayscale / gray */
+color: #9FA2B4;
+margin-right:20px;
+
+}
+.dateapplied{
+
+/* Date Applied */
+
+
+
+/* Bold 14 (0.2 px) */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.2px;
+
+/* grayscale / gray */
+color: #9FA2B4;
+margin-right:20px;
+
+
+}
+
+.divider{
+/* divider */
+
+position: absolute;
+height: 0px;
+left: 0px;
+right: 0px;
+top: calc(50% - 0px/2);
+
+/* grayscale / divider */
+border: 1.5px solid #DFE0EB;
+
+}
+li{
+  list-style-type: none;
+}

@@ -1,0 +1,80 @@
+.tittle{
+    color:#0A512F;
+    width: 160px;
+    height: 33px;
+
+}
+.home{
+    width: 37px;
+    height: 29px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: aliceblue;
+    border-bottom: blanchedalmond;
+    box-shadow: #0A512F;
+}
+.image{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.hometext{
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 14px;
+    padding-left: 10px;
+    color: #0A512F;
+    text-decoration: none;
+}
+.det{
+    display: flex;
+    justify-content: space-around;
+}
+.bell{
+    width: 20px;
+    height: 28px;
+    margin-right: 20px;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+
+}
+.o{
+    margin-right: 10px;
+}
+.main{
+    /* HEADER */
+
+/* position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 0.5px; */
+
+background: linear-gradient(90deg, rgba(255, 255, 255, 0) 41.49%, #EAEAE9 59.17%), #FFFFFF;
+background-blend-mode: darken, normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.tittle{
+    /* CREDIT APP */
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28.5455px;
+/* line-height: 33px; */
+
+color: #0A512F;
+
+
+}

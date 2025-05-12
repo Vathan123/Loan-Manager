@@ -1,0 +1,247 @@
+.verifier-container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  background: #1f2a38;
+  color: white;
+    padding: 1rem;
+  width: 240px;
+  transition: width 0.3s;
+
+}
+
+.sidebar.collapsed {
+  width: 0px;
+  
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+
+  cursor: pointer;
+  width: 230px;
+height: 44.21px;
+margin-bottom: 0px;
+
+
+
+
+}
+
+.main-content {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 1rem 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  font-weight: bold;
+}
+
+.loan-table {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.loan-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.loan-table th, .loan-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.action-btn {
+  background-color: #00b894;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.profile{
+
+display: flex;
+padding-top: 20px ;
+padding-bottom: 20px;
+padding-left: 20px;
+
+background: rgba(196, 196, 196, 0.12);
+box-shadow: 0px 4.01945px 4.01945px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+
+.tittle{
+    color:#0A512F;
+    width: 160px;
+    height: 33px;
+
+}
+.home{
+    width: 37px;
+    height: 29px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95.5vw;
+    
+   
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 70px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 41.49%, #EAEAE9 59.17%), #FFFFFF;
+background-blend-mode: darken, normal;
+    
+}
+.image{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.hometext{
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 14px;
+    padding-left: 10px;
+    color: #0A512F;
+    text-decoration: none;
+}
+.det{
+    display: flex;
+    justify-content: space-around;
+}
+.bell{
+    width: 20px;
+    height: 28px;
+    margin-right: 20px;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+
+}
+.o{
+    margin-right: 10px;
+}
+
+.tittle{
+    /* CREDIT APP */
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28.5455px;
+/* line-height: 33px; */
+
+color: #0A512F;
+
+
+}
+
+
+
+.toggle-btn{
+  background-color: #ddd;
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+header{
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.dash{
+  /* Dashboard */
+
+width: 200px;
+height: 40px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36.3495px;
+line-height: 43px;
+
+color: #0A512F;
+
+
+}
+li{
+  /* Rectangle 22 */
+
+
+
+
+}
+/* ul{
+  margin-top: 0px;
+  padding-bottom: 1px;
+
+} */
+
+
+.d{
+  padding-top: 10px;
+}
+
+
+
+.mainhead{
+  display: flex;
+  
+}
