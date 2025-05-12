@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './index.css'; // Importing the CSS for styling
-import Header from '../components/Header'
+import Header from '../Header'
 
-import ApplicationForm from '../components/ApplicationForm';
+import ApplicationForm from '../ApplicationForm';
 
 const Dashboard = () => {
  const [applications, setApplications] = useState([]);
