@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './index.css'; // Importing the CSS for styling
-import Header from 'C:/Users/vatha/Desktop/loan-manager-frontend/src/components/Header'
+import Header from '../components/Header'
 
-import ApplicationForm from 'C:/Users/vatha/Desktop/loan-manager-frontend/src/components/ApplicationForm';
+import ApplicationForm from '../components/ApplicationForm';
 
 const Dashboard = () => {
  const [applications, setApplications] = useState([]);
